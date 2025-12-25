@@ -1,4 +1,7 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
-    println!("Hello, world!-2c");
+    // modules::guess_game::run();
+    // modules::variables_study::run();
+    modules::functions::run();
 }
